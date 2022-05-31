@@ -9,10 +9,15 @@ Tugas konversi bangkit untuk mata kuliah PAM Semester genap 2022-2023
 5. Maka dapat dilihat informasi detail seorang user github
 
 # NOTE :
-**Jika aplikasi tidak menampilkan list user yang dicari walaupun koneksi pengguna sedang bagus, mohon cek di kodingan nya di bagian file ApiService atau pathnya app\src\main\java\com\example\myapplication\api\ApiService
-karena ditakutkan token API yang saya gunakan habis dan saya menaruh build.gradle nya di bagian build yang ukurannya sangat besar Kalau saya post di github**
+**Jika aplikasi tidak menampilkan list user yang dicari walaupun koneksi pengguna sedang bagus, mohon cek di kodingan nya di bagian file build.gradle(app), disitu saya memberikan kode token API nya seperti gambar di bawah inidi bagian buildConfigField** <br/>
 
-
+ <img width="618" alt="image" src="https://user-images.githubusercontent.com/56098721/171198641-7104516a-de52-4d3d-b11d-32301a1a4837.png"> 
+ 
+ **bagian ini diubah dengan menggenerate ulang token api pada website github dan token ayng telah di generate dimasukkan kembali dengan mengetik pada bagian setelah kata token atau di dalam kodingan seperti ini :**
+  
+  buildConfigField("String", "Authorization", '"token <tokenGithub>"')
+<br/>
+<br/>
 # Penjeasan
 Aplikasi ini menggunakan api dari github.
 
@@ -25,8 +30,7 @@ ViewModel :<br/>
 ViewModel bertugas untuk melakukan fetching api. Pada fetching api digunakan library retrofit2 yang dilakukan secara asynchronus. 
 
 Terdapat beberapa activity dan viewmode dari tugas ini yaitu :
-
-activity :<br/>
+Activity :<br/>
 MainActivity :<br/>
 Merupakan class yang menjadi portal utama dalam mengakses aplikasi yang sudah diatur di dalam file AndroidManifest. Kelas ini menampilkan tampilan option menu untuk melakukan search username github seseorang dan menampilkan data dari hasil search yang berasal dari api github dengan menggunakan class MainViewModel dan di fetch menggunakan method @GET hasil pencarian ditampilkan berupa list dengan konsep list nya menggunakan adapter. 
 
