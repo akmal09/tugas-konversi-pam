@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_list_followers_list.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\fragment_list_followers_list.xml"
+    },
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\fragment_list_following_list.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\fragment_list_following_list.xml"
+    },
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_detail_user.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\activity_detail_user.xml"
+    },
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\ff_list.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\ff_list.xml"
+    },
+    {
+        "merged": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\stripped.dir\\layout\\user_lists.xml",
+        "source": "D:\\Bangkit2022\\tugas-konversi-pam\\app\\src\\main\\res\\layout\\user_lists.xml"
+    }
+]

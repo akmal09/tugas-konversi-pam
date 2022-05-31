@@ -1,0 +1,7 @@
+#Tue May 31 20:18:19 GMT+06:00 2022
+base.1=D\:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=D\:\\Bangkit2022\\tugas-konversi-pam\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex
