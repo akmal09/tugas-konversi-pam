@@ -4,7 +4,14 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/activity_detail_user.xml" value="0.3333333333333333" />
         <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/ff_list.xml" value="0.1" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/fragment_item.xml" value="0.4466666666666667" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/fragment_item_list.xml" value="0.22" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/fragment_list_followers_list.xml" value="0.1" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/fragment_list_following.xml" value="0.1" />
+        <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/fragment_list_following_list.xml" value="0.1" />
         <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/layout/user_lists.xml" value="0.22" />
         <entry key="..\:/Bangkit2022/tugas-konversi-pam/app/src/main/res/menu/top_bar.xml" value="0.17447916666666666" />
       </map>

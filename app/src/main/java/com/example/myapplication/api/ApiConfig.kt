@@ -26,7 +26,7 @@ class ApiConfig {
                 .build()
             return retrofit.create(ApiService::class.java)
         }
-        fun getUserLocation(userUrl:String): ApiService{
+        fun getUserFollowers(userUrl:String): ApiService{
             val loggingInterceptor = if (BuildConfig.DEBUG) {
                 HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
             }else{
@@ -38,7 +38,7 @@ class ApiConfig {
                 .build()
 
             val retrofit = Retrofit.Builder()
-                .baseUrl(userUrl+"/")
+                .baseUrl("${userUrl}/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

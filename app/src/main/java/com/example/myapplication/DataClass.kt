@@ -174,3 +174,11 @@ data class UserBio(
     @field:SerializedName("node_id")
     val nodeId: String
 )
+
+data class FfList(
+    @field:SerializedName("login")
+    val login: String,
+
+    @field:SerializedName("avatar_url")
+    val avatarUrl: String,
+)

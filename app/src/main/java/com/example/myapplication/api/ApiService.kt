@@ -1,5 +1,6 @@
 package com.example.myapplication.api
 
+import com.example.myapplication.FfList
 import com.example.myapplication.ResponseApi
 import com.example.myapplication.UserBio
 import com.example.myapplication.UserResult
@@ -14,18 +15,19 @@ interface ApiService {
         @Query("q") login: String
     ): Call<ResponseApi>
 
-    @GET("users/{login}/following")
-    fun getUsersFollowing(
-        @Path("login") login: String?
-    ): Call<List<UserResult>>
-
-    @GET("users/{login}/followers")
-    fun getUserFollowers(
-        @Path("login") login:String?
-    ): Call<List<UserResult>>
-
     @GET("users/{login}")
     fun getuserUrl(
+        @Header("Authorization") Authorization:String,
         @Path("login") login:String
     ): Call<UserBio>
+
+    @GET("users/{login}/following")
+    fun getListFollwoingObject(
+        @Path("login") login: String?
+    ): Call<List<FfList>>
+
+    @GET
+    fun getFollowers(
+        @Url url: String
+    ): Call<List<FfList>>
 }

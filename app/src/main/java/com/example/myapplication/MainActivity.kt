@@ -82,7 +82,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun moveToDetail(data: UserResultToLocal) {
         val move = Intent(this@MainActivity, DetailUserActivity::class.java)
-        Toast.makeText(applicationContext, "${data}",Toast.LENGTH_SHORT).show()
         move.putExtra(DetailUserActivity.EXTRA_PERSON, data)
         startActivity(move)
     }

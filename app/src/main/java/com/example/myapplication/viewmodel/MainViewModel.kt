@@ -33,12 +33,12 @@ class MainViewModel: ViewModel() {
                         queryResults.postValue(listUserResultToLocal)
                     }
                 }else{
-                    Log.e(TAG, "onFailure: ${response.message()}")
+                    Log.e("null search", "onFailure: ${response.message()}")
                 }
             }
 
             override fun onFailure(call: Call<ResponseApi>, t: Throwable) {
-                Log.e(TAG, "onFailure: ${t.message}")
+                Log.e("gagal ambil", "onFailure: ${t.message}")
             }
 
         })
