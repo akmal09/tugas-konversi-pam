@@ -49,7 +49,7 @@ class DetailUserActivity : AppCompatActivity() {
                 company.text = it.company
                 followers.text = "${it.followers}\nFollowers"
                 following.text = "${it.following}\nFollowing"
-                repository.text = "${it.publicRepos}\nFollowing"
+                repository.text = "${it.publicRepos}\nRepository"
             }
         })
 
